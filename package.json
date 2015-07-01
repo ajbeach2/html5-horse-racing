@@ -1,17 +1,24 @@
 {
-  "name": "obj-loader",
-  "version": "1.0.0",
-  "description": "A mesh loader and viewer for obj objects with WebGL",
-  "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "keywords": [
-    "webgl",
-    "obj",
-    "mesh",
-    "render"
-  ],
-  "author": "ajbeach2@gmail.com",
-  "license": "MIT"
+    "name": "html5-horse-racing",
+    "version": "1.0.0",
+    "description": "An html5 racing game",
+    "main": "src/main.js",
+    "scripts": {
+        "test": "mocha",
+        "start": "node server.js",
+        "build": "browserify src/main.js -o public/app.js"
+    },
+    "author": "ajbeach2@gmail.com",
+    "license": "MIT",
+    "dependencies": {
+        "express": "^4.13.0"
+    },
+    "devDependencies": {
+        "mocha": "2.2.5",
+        "browserify": "10.2.4"
+    },
+    "engines": {
+    "node": "0.10.x"
+  }
+
 }
