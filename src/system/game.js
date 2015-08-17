@@ -2,7 +2,7 @@ var EntityManager = require('./entity-manager');
 
 var Game = {};
 
-Game.rollMulti = 10;
+Game.rollMulti = 10; // roll mutlplier, adde to modifiers to set 
 Game.playerCount = 5;
 Game.laneSize = 50;
 Game.finishLine = 600;

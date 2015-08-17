@@ -13,8 +13,8 @@ You MUST have node, npm installed to build or run tests for this. Once built, th
 In the root of the application, to build and run the game locally:
 
 ```
-npm install &&
-npm run-script build &&
+npm install
+npm run-script build
 npm start 
 ```
 Then navigate to localhost:3000
