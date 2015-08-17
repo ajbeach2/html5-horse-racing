@@ -1,5 +1,5 @@
 //http://stackoverflow.com/questions/8682085/can-i-sync-up-multiple-image-onload-calls
-
+// Class to load images, and have a callback when all are loaded
 var ImageLoader = {};
 
 ImageLoader.init = function(imagePaths, callback) {

@@ -1,3 +1,5 @@
+// Default sprite is a horse
+
 function Sprite(options) {
     var opts = options || {};
     this.image = opts.image || 'horse.png';

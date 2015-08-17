@@ -1,3 +1,6 @@
+// Factory for building player entities
+// By default players have a 'horse' sprite
+
 var Entity = require('../entity');
 var Position = require('../component/position');
 var Lane = require(('../component/lane'));

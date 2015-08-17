@@ -1,3 +1,5 @@
+//Generic factory for building html5 rectangles
+
 var Entity = require('../entity');
 var Position = require('../component/position');
 

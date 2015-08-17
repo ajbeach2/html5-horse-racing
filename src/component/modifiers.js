@@ -1,3 +1,6 @@
+// Modifier component that is a further abstraction 
+// for arbitrary attributes for an entity.
+
 function Modifiers() {
     this.data = {};
 }
